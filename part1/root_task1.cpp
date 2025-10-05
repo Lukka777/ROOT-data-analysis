@@ -26,4 +26,8 @@ int main(int argc, char** argv) {
   app.Run(); 
 
   return 0;
+
+  /*
+  g++ root_task1.cpp -o root_task1 `root-config --cflags --libs` ./root_task1
+  */
 }
